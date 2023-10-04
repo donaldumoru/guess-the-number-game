@@ -8,28 +8,41 @@
     <script defer src="script.js"></script>
 </head>
 <body>
+    
+    <div class="game-wrapper">
 
-    <div class="game-container">
-        <div class="game-wrapper">
-
-            <!-- <input type="text" id="your-name" placeholder="What's your name">
-            <input type="text" id="your-age" placeholder="What's your age?">
-            <input type="text" id="your-occupation" placeholder="What's your occupation?">
-            <input type="text" id="your-country" placeholder="What's your country?">
-
-            <button id="savebutton" onclick="saveData()">Save</button> -->
-
+        <div class="game-container">
             <h1>GUESS THE NUMBER GAME</h1>
-            <p id="game-info"></p>
-            <input type="text" id="your-guess" placeholder="What's your guess?">
-            <button id="guessbutton" onclick="playGame()">Guess</button>
-            <p id="chances-left"></p>
-            <p id="too-high"></p>
 
-            <div class="player-info">
-                <p id="player-name"></p>
+            <div id="player-info">
+
+                <p>Register 2 Players</p>
+    
+        
+                <input type="text" id="your-name" placeholder="Name">
+                <input type="text" id="your-age" placeholder="Age?">
+                <input type="text" id="your-occupation" placeholder="Occupation?">
+                <input type="text" id="your-country" placeholder="Country">
+    
+                <button id="savebutton" onclick="saveData()">Save</button>
             </div>
+    
+    
+            
+        <div id="container">
+                <p id="game-info"></p>
+                <input type="text" id="your-guess" placeholder="What's your guess?">
+                <button id="guessbutton" onclick="playGame()">Guess</button>
+                <p id="chances-left"></p>
+                <p id="too-high"></p>
+    
+                <div class="player-info">
+                    <p id="player-name"></p>
+                </div>
         </div>
+
+
+
     </div>
 </body>
 </html>
