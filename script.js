@@ -10,8 +10,8 @@ class Player {
 }
 
 let players = [
-    new Player("Fontys", 20, "Programmer", "Netherlands"),
-    new Player("TUE", 19, "Engineer", "Netherlands")
+    new Player("Player One", 20, "Programmer", "Netherlands"),
+    new Player("Player Two", 19, "Engineer", "Netherlands")
 ];
 
 
